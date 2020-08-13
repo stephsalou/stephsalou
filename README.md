@@ -9,7 +9,7 @@ Hi, I'm Stephane Salou, a passionate self-taught full-stack web developer from I
 - 🌱 I’m currently learning NuxtJs & Typescript
 - 👯 I’m looking to collaborate on [DbQuery](https://github.com/stephsalou/db_query)
 - 💬 Ask me about anything [here](https://github.com/stephsalou/stephsalou/issues)
-📫-  How to reach me: [my mail](mailto:anonymex1@outlook.com)
+- 📫 How to reach me: [my mail](mailto:anonymex1@outlook.com)
 **Languages and Tools:**
 
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
