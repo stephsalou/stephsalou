@@ -35,3 +35,6 @@ Hi, I'm Stephane Salou, a passionate self-taught full-stack web developer from I
 <a href="https://github.com/stephsalou/MonFramework">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=stephsalou&repo=MonFramework&theme=radical" />
 </a>
+<a href="https://github.com/stephsalou/nuxt-nest-template">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=stephsalou&repo=nuxt-nest-template&theme=blue-green" />
+</a>
