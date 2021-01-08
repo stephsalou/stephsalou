@@ -1,34 +1,28 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">stephsalou</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div class="container flex flex-col justify-center h-full">
+    <top-bar />
+    <h1 ><span :class="welcomeWords.includes(letter) ? 'hover:shadow' : null" v-for="letter in welcomeText.split('')">{{ letter }}</span></h1>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-
-export default Vue.extend({})
+import TopBar from "~/components/mobile/top-bar/top-bar.vue"
+export default Vue.extend({
+  data() {
+    return {
+      welcomeText: "Hello world i'm stephane salou" as string
+    }
+  },
+  computed:{
+    welcomeWords():string[]{
+      return this.welcomeText.split("").filter((letter:String) => letter ? letter != " " : "")
+    }
+  },
+  components:{
+    TopBar
+  }
+})
 </script>
 
 <style>
