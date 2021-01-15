@@ -31,14 +31,16 @@
 
 .burger.collapse {
   i {
-    transform: rotate(360deg);
+    transform: rotate(260deg);
     display: none;
     &:first-child {
+      display: block;
       position: absolute;
       bottom: 20px;
       top: auto;
     }
     &:last-child {
+      display: block;
       position: absolute;
       top: 20px;
       bottom: auto;
