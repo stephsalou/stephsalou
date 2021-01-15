@@ -2,6 +2,7 @@
   right: 10px;
   top: auto;
   bottom: 30px;
+  position: fixed;
   background-color: #232323;
   border-radius: 50%;
   padding: 10px;
