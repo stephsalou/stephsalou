@@ -52,7 +52,7 @@
   transition: position 0.3s, display 0s;
   &.show {
     position: fixed;
-    display: block;
+    display: flex;
   }
 }
 
@@ -68,6 +68,6 @@
   transition: position 0.3s, display 0s;
   &.show {
     position: fixed;
-    display: block;
+    display: flex;
   }
 }
