@@ -44,13 +44,15 @@
   right: 130px;
   top: 0px;
   bottom: auto;
-  position: fixed;
+  position: relative;
   padding: 10px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   display: none;
   transition: position 0.3s, display 0s;
   &.show {
+    position: fixed;
+    display: block;
   }
 }
 
