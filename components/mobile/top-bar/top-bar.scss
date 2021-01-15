@@ -48,9 +48,11 @@
   padding: 10px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
-  transition: position 0.3s, display 2s;
+  height: 0rem;
+  transition: position 0.3s, height 2s;
   &.show {
     position: fixed;
+    height: 10rem;
   }
 }
 
