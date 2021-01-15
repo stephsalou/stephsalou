@@ -48,7 +48,7 @@
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   height: 0rem;
-  transition: position 0.3s, height 2s;
+  transition: position 0.3s, height 1s;
   &.show {
     position: fixed;
     height: 10rem;
@@ -69,7 +69,7 @@
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   width: 0rem;
-  transition: position 0.3s, width 2s;
+  transition: position 0.3s, width 1s;
   &.show {
     width: 10rem;
     position: fixed;
