@@ -1,7 +1,7 @@
 .burger {
   right: 10px;
-  top: auto;
-  bottom: 30px;
+  top: 30px;
+  bottom: auto;
   position: fixed;
   background-color: #232323;
   border-radius: 50%;
@@ -9,6 +9,7 @@
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   width: 59px;
   height: 59px;
+  box-sizing: border-box;
 }
 .burger i {
   display: block;
@@ -16,4 +17,5 @@
   height: 2px;
   margin: 8px;
   background-color: #7a7a7a;
+  box-sizing: border-box;
 }
