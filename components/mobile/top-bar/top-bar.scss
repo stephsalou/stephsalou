@@ -32,5 +32,15 @@
 .burger.collapse {
   i {
     transform: rotate(360deg);
+    &:first-child {
+      position: absolute;
+      bottom: 20px;
+      top: auto;
+    }
+    &:last-child {
+      position: absolute;
+      bottom: 20px;
+      top: auto;
+    }
   }
 }
