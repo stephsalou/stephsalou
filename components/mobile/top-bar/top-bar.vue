@@ -14,6 +14,11 @@ export default class TopBar extends Vue {
   }
   makeBurgerAnim() {
     console.dir(this.$refs.burger)
+    this.$refs.burger.classList = [
+      ...this.$refs.burger.classList,
+      'collapse',
+      'cross',
+    ]
   }
 }
 </script>
