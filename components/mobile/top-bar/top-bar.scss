@@ -52,6 +52,9 @@
   &.show {
     position: fixed;
     height: 10rem;
+    .about {
+      display: none;
+    }
   }
 }
 
@@ -67,5 +70,8 @@
   &.show {
     width: 10rem;
     position: fixed;
+    .about {
+      display: none;
+    }
   }
 }
