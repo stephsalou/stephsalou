@@ -25,25 +25,27 @@
     margin: 8px;
     background-color: #7a7a7a;
     box-sizing: border-box;
-    transition: transform 2s, top 1s, bottopn 1s, position 1s, display;
+    transition: transform 2s, top 1s, bottopn 1s, position 1s, display 0.05;
   }
 }
 
 .burger.collapse {
   i {
-    transform: rotate(260deg);
+    transform: rotate(360deg);
     display: none;
     &:first-child {
       display: block;
       position: absolute;
       bottom: 20px;
       top: auto;
+      transform: rotate(200deg);
     }
     &:last-child {
       display: block;
       position: absolute;
       top: 20px;
       bottom: auto;
+      transform: rotate(-200deg);
     }
   }
 }
