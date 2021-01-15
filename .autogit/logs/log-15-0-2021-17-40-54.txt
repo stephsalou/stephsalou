@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Fri Jan 15 2021 17:40:54 GMT+0000 (Greenwich Mean Time)
+------------------------------------------------------
+
+Modified files:
+* components/mobile/top-bar/top-bar.scss
+* components/mobile/top-bar/top-bar.vue
+
+
+Created files:
+* .autogit/logs/log-15-0-2021-17-40-18.txt
+
+
+Deleted files:
+
+
+Renamed files:
