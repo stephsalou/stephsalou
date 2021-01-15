@@ -10,13 +10,13 @@ export default class TopBar extends Vue {
   burgerClass = ''
 
   showNav() {
-    this.makeBurgerAnim()
+    this.toggleBurgerAnim()
   }
-  makeBurgerAnim() {
+  toggleBurgerAnim() {
     console.dir(this.$refs.burger)
     let BurgerHtmlEl = {} as HTMLDivElement
     BurgerHtmlEl = this.$refs.burger as HTMLDivElement
-    BurgerHtmlEl.classList.add(...['collapse', 'cross'])
+    BurgerHtmlEl.classList.toggle(...['collapse', 'cross'])
   }
 }
 </script>
