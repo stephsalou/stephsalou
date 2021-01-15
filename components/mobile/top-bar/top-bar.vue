@@ -10,7 +10,9 @@ export default class TopBar extends Vue {
   burgerClass = ''
 
   showNav() {}
-  makeBurgerAnim() {}
+  makeBurgerAnim() {
+    this.$refs.burger.classList
+  }
 }
 </script>
 
