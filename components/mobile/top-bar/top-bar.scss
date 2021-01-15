@@ -25,7 +25,7 @@
     margin: 8px;
     background-color: #7a7a7a;
     box-sizing: border-box;
-    transition: transform 2s, top 1s, bottopn 1s, position 1s, display 0.05;
+    transition: transform 2s, top 1s, bottopn 1s, position 1s;
   }
 }
 
@@ -38,13 +38,14 @@
       position: absolute;
       bottom: 20px;
       top: auto;
-      transform: rotate(30deg);
+      transform: rotate(45deg);
     }
     &:last-child {
       display: block;
       position: absolute;
       top: 20px;
       bottom: auto;
+      transform: rotate(45deg);
     }
   }
 }
