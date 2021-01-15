@@ -30,6 +30,8 @@
   box-sizing: border-box;
   display: none;
   transition: position 0.3s, display 0s;
+  & {
+  }
 }
 
 .horizontal-section {
