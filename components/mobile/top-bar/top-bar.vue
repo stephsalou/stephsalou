@@ -20,6 +20,8 @@ export default class TopBar extends Vue {
     BurgerHtmlEl = this.$refs.burger as HTMLDivElement
     BurgerHtmlEl.classList.toggle('collapse')
     BurgerHtmlEl.classList.toggle('cross')
+    VSection.classList.toggle('show')
+    HSection.classList.toggle('show')
   }
 }
 </script>
