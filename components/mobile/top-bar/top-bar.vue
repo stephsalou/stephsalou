@@ -15,8 +15,10 @@ export default class TopBar extends Vue {
   toggleBurgerAnim() {
     console.dir(this.$refs.burger)
     let BurgerHtmlEl = {} as HTMLDivElement
-    let VSection = document.getElementById('vertical-section')
-    let HSection = document.getElementById('horizontal-section')
+    let VSection =
+      document.getElementById('vertical-section') ?? ({} as HTMLDivElement)
+    let HSection =
+      document.getElementById('horizontal-section') ?? ({} as HTMLDivElement)
     BurgerHtmlEl = this.$refs.burger as HTMLDivElement
     BurgerHtmlEl.classList.toggle('collapse')
     BurgerHtmlEl.classList.toggle('cross')
