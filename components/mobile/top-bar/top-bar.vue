@@ -13,7 +13,7 @@ export default class TopBar extends Vue {
     this.makeBurgerAnim()
   }
   makeBurgerAnim() {
-    console.log(this.$refs.burger)
+    console.dir(this.$refs.burger)
   }
 }
 </script>
