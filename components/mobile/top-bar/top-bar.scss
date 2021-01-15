@@ -53,8 +53,11 @@
     position: fixed;
     height: 10rem;
     .about {
-      display: none;
+      display: inline-block;
     }
+  }
+  .about {
+    display: none;
   }
 }
 
@@ -71,7 +74,10 @@
     width: 10rem;
     position: fixed;
     .about {
-      display: none;
+      display: inline-block;
     }
+  }
+  .about {
+    display: none;
   }
 }
