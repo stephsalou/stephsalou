@@ -16,7 +16,8 @@ export default class TopBar extends Vue {
     console.dir(this.$refs.burger)
     let BurgerHtmlEl = {} as HTMLDivElement
     BurgerHtmlEl = this.$refs.burger as HTMLDivElement
-    BurgerHtmlEl.classList.toggle(...['collapse', 'cross'])
+    BurgerHtmlEl.classList.toggle('collapse')
+    BurgerHtmlEl.classList.toggle('cross')
   }
 }
 </script>
