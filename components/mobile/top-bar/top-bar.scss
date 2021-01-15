@@ -22,7 +22,7 @@
 }
 .vertical-section {
   right: 100px;
-  top: 30px;
+  top: 0px;
   bottom: auto;
   position: fixed;
   padding: 10px;
@@ -31,8 +31,8 @@
 }
 
 .horizontal-section {
-  right: 100px;
-  top: 30px;
+  right: 0px;
+  top: 100px;
   bottom: auto;
   position: fixed;
   padding: 10px;
