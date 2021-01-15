@@ -1,3 +1,11 @@
+* {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75em;
+  color: #8a8a8a;
+  background-color: #2a2a2a;
+  text-align: center;
+}
 .burger {
   right: 10px;
   top: 30px;
