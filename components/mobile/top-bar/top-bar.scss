@@ -27,3 +27,9 @@
     box-sizing: border-box;
   }
 }
+
+.burger.collapse {
+  i {
+    transform: rotate(160);
+  }
+}
