@@ -8,6 +8,9 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
 })
 export default class TopBar extends Vue {
   burgerClass = ''
+
+  showNav() {}
+  makeBurgerAnim() {}
 }
 </script>
 
