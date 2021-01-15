@@ -25,13 +25,14 @@
     margin: 8px;
     background-color: #7a7a7a;
     box-sizing: border-box;
-    transition: transform 2s, top 1s, bottopn 1s, position 1s;
+    transition: transform 2s, top 1s, bottopn 1s, position 1s, display;
   }
 }
 
 .burger.collapse {
   i {
     transform: rotate(360deg);
+    display: none;
     &:first-child {
       position: absolute;
       bottom: 20px;
