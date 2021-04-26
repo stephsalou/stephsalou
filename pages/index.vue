@@ -3,7 +3,7 @@
     <top-bar />
     <h1>
       <span
-        class="NameLetter"
+        class="nameLetter"
         :class="welcomeWords.includes(letter) ? 'hover:shadow' : null"
         v-for="(letter, index) in welcomeText.split('')"
         :key="index.toString()"
@@ -70,5 +70,8 @@ export default class Index extends Vue {
 
 .links {
   padding-top: 15px;
+}
+.nameLetter {
+  font-size: 50px;
 }
 </style>
