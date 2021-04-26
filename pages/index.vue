@@ -15,6 +15,15 @@
 <script lang="ts">
 import Vue from 'vue'
 
+import { Component, Vue } from 'nuxt-property-decorator';
+import Logo from '@/components/Logo.vue';
+@Component({
+  components: {
+    Logo
+  }
+})
+export default class Index extends Vue {}
+
 import TopBar from '~/components/mobile/top-bar/top-bar.vue'
 export default Vue.extend({
   data() {
