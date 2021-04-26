@@ -14,7 +14,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { defineComponent } from "vue"
+
 import TopBar from '~/components/mobile/top-bar/top-bar.vue'
 export default Vue.extend({
   data() {
