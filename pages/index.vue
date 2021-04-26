@@ -1,9 +1,9 @@
 <template>
   <div class="container flex flex-col justify-center h-full">
     <top-bar />
-    <h1>
+    <h1 class="name-container">
       <span
-        class="nameLetter"
+        class="name-letter"
         :class="welcomeWords.includes(letter) ? 'hover:shadow' : null"
         v-for="(letter, index) in welcomeText.split('')"
         :key="index.toString()"
@@ -71,10 +71,8 @@ export default class Index extends Vue {
 .links {
   padding-top: 15px;
 }
-.nameLetter {
-  font-size: 2rem;
-  &:hover {
-    font-size: 3.5rem;
-  }
+.name-container{
+
 }
+
 </style>
