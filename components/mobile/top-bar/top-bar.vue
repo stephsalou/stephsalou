@@ -3,9 +3,7 @@
 import 'reflect-metadata'
 import { Component, Prop, Vue } from 'vue-property-decorator'
 
-@Component({
-  name: 'TopBar',
-})
+@Component({})
 export default class TopBar extends Vue {
   burgerClass = ''
 
