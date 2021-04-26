@@ -1,8 +1,7 @@
 <template src="./top-bar.html"></template>
 <script lang="ts">
 import 'reflect-metadata'
-
-
+import { Component, Vue } from 'nuxt-property-decorator'
 @Component({})
 export default class TopBar extends Vue {
   burgerClass = ''

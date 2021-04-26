@@ -19,6 +19,9 @@ import { Component, Vue } from 'nuxt-property-decorator'
 import Logo from '@/components/Logo.vue'
 @Component({
   name: 'index',
+  components: {
+    TopBar
+  }
 })
 export default class Index extends Vue {
   welcomeText = "Hello world i'm stephane salou"
