@@ -72,10 +72,19 @@ export default class Index extends Vue {
   padding-top: 15px;
 }
 .name-container {
+  letter-spacing: 4px;
   .name-letter {
     font-size: 2rem;
     &:hover {
       font-size: 3.5rem;
+      background: rgb(36, 10, 0);
+      background: radial-gradient(
+        circle,
+        rgba(36, 10, 0, 1) 0%,
+        rgba(104, 121, 9, 1) 46%,
+        rgba(27, 0, 255, 1) 100%
+      );
+      margin: 0.45rem
     }
   }
 }
