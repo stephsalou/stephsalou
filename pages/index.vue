@@ -71,8 +71,12 @@ export default class Index extends Vue {
 .links {
   padding-top: 15px;
 }
-.name-container{
-
+.name-container {
+  .name-letter {
+    font-size: 2rem;
+    &:hover {
+      font-size: 3.5rem;
+    }
+  }
 }
-
 </style>
