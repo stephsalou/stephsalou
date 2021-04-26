@@ -20,13 +20,13 @@ import Logo from '@/components/Logo.vue'
 @Component({
   name: 'index',
   components: {
-    TopBar
-  }
+    TopBar,
+  },
 })
 export default class Index extends Vue {
   welcomeText = "Hello world i'm stephane salou"
 
-  welcomeWords(): string[] {
+  get welcomeWords(): string[] {
     return this.welcomeText
       .split('')
       .filter((letter: String) => (letter ? letter != ' ' : ''))
