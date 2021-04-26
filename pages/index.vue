@@ -13,31 +13,32 @@
 </template>
 
 <script lang="ts">
+import TopBar from '~/components/mobile/top-bar/top-bar.vue'
+
 import { Component, Vue } from 'nuxt-property-decorator';
 import Logo from '@/components/Logo.vue';
 @Component({
   components: {
-    Logo
+    TopBar
   }
 })
-export default class Index extends Vue {}
+export default class Index extends Vue {
+   welcomeText= "Hello world i'm stephane salou"
 
-import TopBar from '~/components/mobile/top-bar/top-bar.vue'
+
+}
+
 export default Vue.extend({
   data() {
     return {
-      welcomeText: "Hello world i'm stephane salou" as string,
+     
     }
   },
   computed: {
-    welcomeWords(): string[] {
-      return this.welcomeText
-        .split('')
-        .filter((letter: String) => (letter ? letter != ' ' : ''))
-    },
+    
   },
   components: {
-    TopBar,
+    ,
   },
 })
 </script>
