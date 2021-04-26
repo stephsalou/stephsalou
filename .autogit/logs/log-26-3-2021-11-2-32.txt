@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Mon Apr 26 2021 11:02:32 GMT+0000 (Greenwich Mean Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-26-3-2021-11-1-56.txt
+* assets/image/codebinaire.jpg
+
+
+Deleted files:
+
+
+Renamed files:
