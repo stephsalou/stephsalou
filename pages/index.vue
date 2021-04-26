@@ -77,14 +77,14 @@ export default class Index extends Vue {
     font-size: 2rem;
     &:hover {
       font-size: 3.5rem;
-      background: rgb(36, 10, 0);
+      background: rgba(36, 10, 0, 0.65);
       background: radial-gradient(
         circle,
         rgba(36, 10, 0, 1) 0%,
         rgba(104, 121, 9, 1) 46%,
         rgba(27, 0, 255, 1) 100%
       );
-      margin: 0.45rem
+      margin: 0.45rem;
     }
   }
 }
