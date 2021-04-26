@@ -79,7 +79,6 @@ export default class Index extends Vue {
       color: red;
       background-image: url('../assets/image/codebinaire.jpg');
     }
-    background-image: url('../assets/image/codebinaire.jpg');
     &:hover {
       font-size: 3.5rem;
       background: rgb(36, 10, 0);
