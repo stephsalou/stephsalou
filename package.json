@@ -19,6 +19,7 @@
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "nuxt-property-decorator": "^2.8.8",
+    "nuxt-ts": "^2.8.1",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
