@@ -4,7 +4,9 @@
     <h1 class="name-container">
       <span
         class=""
-        :class="welcomeWords.includes(letter) ? 'hover:shadow' : null"
+        :class="
+          welcomeWords.includes(letter) ? 'name-letter hover:shadow' : null
+        "
         v-for="(letter, index) in welcomeText.split('')"
         :key="index.toString()"
         >{{ letter }}</span
