@@ -13,8 +13,6 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-
 import { Component, Vue } from 'nuxt-property-decorator';
 import Logo from '@/components/Logo.vue';
 @Component({
