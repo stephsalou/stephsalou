@@ -25,22 +25,12 @@ import Logo from '@/components/Logo.vue';
 export default class Index extends Vue {
    welcomeText= "Hello world i'm stephane salou"
 
-
-}
-
-export default Vue.extend({
-  data() {
-    return {
-     
+    welcomeWords(): string[] {
+      return this.welcomeText
+        .split('')
+        .filter((letter: String) => (letter ? letter != ' ' : ''))
     }
-  },
-  computed: {
-    
-  },
-  components: {
-    ,
-  },
-})
+}
 </script>
 
 <style>
