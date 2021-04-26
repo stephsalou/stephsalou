@@ -3,7 +3,7 @@
     <top-bar />
     <h1 class="name-container">
       <span
-        class="name-letter"
+        class=""
         :class="welcomeWords.includes(letter) ? 'hover:shadow' : null"
         v-for="(letter, index) in welcomeText.split('')"
         :key="index.toString()"
