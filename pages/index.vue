@@ -75,6 +75,9 @@ export default class Index extends Vue {
   letter-spacing: 4px;
   .name-letter {
     font-size: 2rem;
+    &::selection{
+      color
+    }
     &:hover {
       font-size: 3.5rem;
       background: rgb(36, 10, 0);
