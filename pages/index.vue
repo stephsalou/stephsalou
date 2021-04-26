@@ -72,8 +72,9 @@ export default class Index extends Vue {
   padding-top: 15px;
 }
 .nameLetter {
+  font-size: 2rem;
   &:hover {
-    font-size: 50px;
+    font-size: 3.5rem;
   }
 }
 </style>
