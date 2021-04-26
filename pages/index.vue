@@ -77,7 +77,7 @@ export default class Index extends Vue {
     font-size: 2rem;
     &::selection {
       color: red;
-      background: url('../assets/image/codebinaire.jpg');
+      background-image: url('../assets/image/codebinaire.jpg');
     }
     &:hover {
       font-size: 3.5rem;
