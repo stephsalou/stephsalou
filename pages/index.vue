@@ -19,7 +19,7 @@ import { Component, Vue } from 'nuxt-property-decorator';
 import Logo from '@/components/Logo.vue';
 @Component({
   components: {
-    TopBar
+    TopBa
   }
 })
 export default class Index extends Vue {
