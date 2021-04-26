@@ -15,21 +15,19 @@
 <script lang="ts">
 import TopBar from '~/components/mobile/top-bar/top-bar.vue'
 
-import { Component, Vue } from 'nuxt-property-decorator';
-import Logo from '@/components/Logo.vue';
+import { Component, Vue } from 'nuxt-property-decorator'
+import Logo from '@/components/Logo.vue'
 @Component({
-  components: {
-    TopBa
-  }
+  name: 'index',
 })
 export default class Index extends Vue {
-   welcomeText= "Hello world i'm stephane salou"
+  welcomeText = "Hello world i'm stephane salou"
 
-    welcomeWords(): string[] {
-      return this.welcomeText
-        .split('')
-        .filter((letter: String) => (letter ? letter != ' ' : ''))
-    }
+  welcomeWords(): string[] {
+    return this.welcomeText
+      .split('')
+      .filter((letter: String) => (letter ? letter != ' ' : ''))
+  }
 }
 </script>
 
