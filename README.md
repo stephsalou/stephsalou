@@ -39,3 +39,5 @@ Hi, I'm Stephane Salou, a passionate self-taught full-stack web developer from I
 <a href="https://github.com/stephsalou/nuxt-nest-template">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=stephsalou&repo=nuxt-nest-template&theme=blue-green" />
 </a>
+
+![Snake animation](https://github.com/preethamb97/preethamb97/blob/output/github-contribution-grid-snake.svg)
